@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background: linear-gradient(
+        to bottom,
+        #8bbabb 0%,
+        #8bbabb 50%,                                                                 
+        white 50%,
+        white 100%
+    );
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+.form-sizing{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    /* height: 680px; */
+}
+
+
+.Info2{
+    background-color: #35477d;
+    border: 1px solid #314581;
+}
+
+.Info1{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.contact{
+    color: white;
+    font-family: sans-serif;
+}
+
+.contact-para{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: 500; */
+}
+
+
+.location ,.phone ,.email{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Roboto', sans-serif;
+}
+
+.fa-location-dot ,.fa-phone ,.fa-envelope{
+    color: white;
+    font-size: large;
+}
+
+
+.send{
+    color: #35477d;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-control{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+    background: none;
+    
+}
+
+.send-btn{
+    background-color: #314581;
+    color: white;
+    transition: all 0.5s;
+    font-weight: 600;
+}
+
+.send-btn:hover{
+    background-color: #fcfcfc;
+    color: #314581;
+}
+
+.show-btn{
+    width: 200px;
+    height: 60px;
+    background-color: #314581;
+    color: white;
+    font-weight: 600;
+    transition: all 0.5s;
+    border: 1px solid #314581;
+
+}
+
+
+.show-btn:hover{
+    background-color: #fcfcfc;
+    color: #314581;
+
+}
+
+.id-hide{
+    display: none ;
+}
